@@ -1,0 +1,104 @@
+/* This CSS file is an initial draft.  Please update it so that it serves as a very good starting point for styling Calendar 2.0 calendars.  */
+
+#kwiklinks {
+}
+#kwiklinks form {
+    margin: 15px 0 25px;
+}
+#kwiklinks a {
+	color: ;
+}
+#kwiklinks form select {
+    margin-right: 15px;
+}
+#cal_month_hdr {
+    background: none repeat scroll 0 0 #ECECE6;
+    font-size: 17px;
+    height: 20px;
+    line-height: 18px;
+    padding: 5px 0 0;
+    text-align: center;
+}
+#cal_month_hdr .calmonth, #cal_month_hdr .selected {
+    margin: 10px;
+}
+#cal_month_hdr .selected {
+    color: #705329;
+}
+.calendar {
+    border: 2px solid #CCCCCC;
+    border-collapse: collapse;
+    margin: 3px 0 0;
+    table-layout: fixed;
+    width: 920px;
+}
+.calendar th {
+    background-color: #2A5068;
+    border: 2px solid #CCCCCC;
+    color: white;
+    font-size: 15px;
+    font-weight: normal;
+    padding: 5px;
+    text-align: center;
+    width: 14%;
+}
+.calendar td {
+    border: 2px solid #CCCCCC;
+    font-size: 11px;
+    height: 130px;
+    line-height: normal;
+    padding: 0 5px 5px;
+    text-align: left;
+    vertical-align: top;
+}
+.calendar td.today {
+    background: none repeat scroll 0 0 #ECECE6;
+}
+.calendar .link {
+	display: ;
+}
+.calendar .nolink {
+	display: ;
+}
+.calendar .date {
+    font-size: 18px;
+}
+.calendar td ul {
+    list-style: none outside none;
+    margin: 10px 0 0;
+    padding: 0;
+}
+.calendar td ul li {
+    margin: 0 0 10px;
+    padding: 0;
+}
+#cal_title {
+    color: #B3582B;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 20px;
+    padding: 0 0 5px;
+}
+.event {
+    border-top: 3px solid #E3D9B2;
+    margin: 20px 0 0;
+    padding-top: 15px;
+    width: 600px;
+}
+.event span {
+    display: block;
+}
+.eventTitle {
+    color: #B3582B;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 20px;
+    margin: 0 0 10px;
+}
+.eventDate {
+    color: #326B80;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 18px;
+    margin: 0 0 10px;
+}

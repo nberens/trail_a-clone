@@ -1,0 +1,140 @@
+/* Forms */
+
+form.contact {
+  width: 430px;
+}
+
+fieldset {
+	clear: both;
+	border: 1px solid #CCC;
+	padding: 8px;
+	margin-bottom: 16px;
+}
+
+div.field {
+  float: left;
+  padding-bottom: 15px;
+}
+
+div.field h2 {
+  margin: 20px 0 0 0;
+}
+
+div.field label {
+  display: block;
+  padding-bottom: 3px;
+  font-weight: bold;
+}
+
+div.field label.checkbox,
+div.field label.radio {
+  font-weight: normal;
+}
+
+/*form.locations div.field label.radio {
+  display: inline;
+  margin-right: 20px;
+}*/
+
+div.field input.text {
+  display: block;
+  width: 190px;
+  height: 17px;
+  margin: 0 6px 0 0;
+  padding: 4px 0 4px 5px;
+  font-size: 14px;
+  color: #595959;
+  background: white;
+  border: 2px solid #e9e8e8;
+}
+
+div.field select {
+  display: block;
+  /*padding: 10px;*/
+  color: #595959;
+  /*background: white;*/
+  font-size: 14px;
+  /*border: 2px solid #e9e8e8;*/
+}
+
+div.field textarea {
+  display: block;
+  width: 406px;
+  height: 150px;
+  padding: 4px 0 4px 5px;
+  font-size: 14px;
+  font-family: Trebuchet, "Trebuchet MS", Verdana, sans-serif;
+  color: #595959;
+  background: white;
+  border: 2px solid #e9e8e8;
+}
+
+input.button {
+}
+
+input.button:hover {
+}
+
+#submit {
+  clear: both;
+  margin-top: 15px;
+}
+
+.required,
+.warn {
+  color: #a50834;
+}
+
+div.warn {
+  width: 430px;
+  margin: 0 0 20px 0;
+  padding: 20px 20px 0 20px;
+  border: 1px solid #b6b6b6;
+  background: #edecec;
+}
+
+ul.warn {
+  margin: 0 0 20px 0;
+  padding: 0 0 0 16px;
+}
+
+ul.warn li {
+  margin: 0 0 5px 0;
+  padding-left: 0;
+}
+
+
+
+
+form.contact div.full {
+  width: 430px;
+  margin: 0;
+}
+form.contact div.one-third {
+  width: 135px;
+}
+form.contact div.one-third input.text {
+  width: 118px;
+}
+form.contact div.half {
+  width: 210px;
+}
+form.contact div.half input.text {
+  width: 188px;
+}
+form.contact div.two-thirds {
+  width: 300px;
+}
+form.contact div.two-thirds input.text {
+  width: 278px;
+}
+form.contact div.full input.text {
+  width: 408px;
+}
+form.contact div.pad {
+  padding-right: 10px;
+}
+form.contact div.last {
+  clear: both;
+  width: 100%;
+}
